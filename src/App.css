@@ -1,0 +1,28 @@
+body{
+  background: linear-gradient(#7A1CAC, #AD49E1) !important;
+  
+}
+.container{
+  display: flex;
+  padding: 30px;
+  gap:20px;
+}
+.mainWeather{
+ 
+  margin-right:10px;
+}
+.airQuality{
+  display:flex;
+  flex:1;
+  flex-direction: column;
+  gap:20px;
+}
+.title{
+  border-radius: 40px;
+  background-color: #a06bbc;
+  margin:auto;
+  width: 150px;
+  color:rgb(255, 255, 255);
+  font-weight: bold;
+  padding-left: 20px;
+}

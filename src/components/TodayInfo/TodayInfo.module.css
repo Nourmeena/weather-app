@@ -1,0 +1,55 @@
+.container{
+    color:white;
+    border-radius: 0.5rem;
+    margin: auto;
+    
+}
+.upperBoxes{
+    display: flex;
+    gap:25px;
+   
+}
+.todayTemp, .airQuality{
+    background-color: #5e1685;
+    padding:2rem;
+    border-radius: 0.5rem;
+    margin-top: 10px;
+    
+}
+
+.info{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+    margin-top: 1rem;
+    font-size: 20px;
+}
+.title{
+    border-radius: 40px;
+    background-color: #a06bbc;
+    
+    width: 150px;
+    color:white;
+    font-weight: bold;
+    padding-left: 20px;
+}
+@media (max-width: 899px) {
+    .upperBoxes {
+        flex-direction: column; 
+    }
+
+    .info {
+        grid-template-columns: repeat(2, 1fr); 
+    }
+
+    
+}
+
+@media (max-width: 480px) {
+    .info {
+        grid-template-columns: 1fr;
+    }
+    .airQuality,.todayTemp{
+        padding:10px;
+    }
+}
