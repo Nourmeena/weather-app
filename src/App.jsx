@@ -80,7 +80,7 @@ function App() {
       <Navbar searching={handleSearch} />
       {error && <p className="error">{error}</p>}
       {weatherData && (
-        <div>
+        <div className='main'>
           <div className='container'>
             <TodayInfo weatherData={weatherData} />
           </div>

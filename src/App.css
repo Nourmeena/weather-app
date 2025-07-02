@@ -2,15 +2,16 @@ body{
   background: linear-gradient(#7A1CAC, #AD49E1) !important;
   
 }
+.main{
+  padding-left: 100px;
+}
 .container{
   display: flex;
   padding: 30px;
   gap:20px;
+
 }
-.mainWeather{
- 
-  margin-right:10px;
-}
+
 .airQuality{
   display:flex;
   flex:1;
@@ -25,4 +26,10 @@ body{
   color:rgb(255, 255, 255);
   font-weight: bold;
   padding-left: 20px;
+}
+
+@media (max-width: 600px) {
+  .main {
+    padding-left: 0px;
+  }
 }

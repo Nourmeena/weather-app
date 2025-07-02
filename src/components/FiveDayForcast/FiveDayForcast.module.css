@@ -1,21 +1,21 @@
-.container{
-    display:flex;
-    flex-wrap: wrap;
-    gap:10px;
-    margin-top: 10px;
-    color:white;
-    justify-content: center;
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+  color: white;
+  justify-content: center;
 }
-.boxes{
-    background-color: #5e1685;
-    padding:20px;
-    border-radius: 0.5rem;
-    width: 200px;
-    margin: auto;
-    margin-bottom: 40px;
+.boxes {
+  background-color: #5e1685;
+  padding: 20px;
+  border-radius: 0.5rem;
+  width: 200px;
+  margin: auto;
+  margin-bottom: 40px;
 }
-.dayForcast{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.dayForcast {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
