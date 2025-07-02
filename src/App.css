@@ -4,6 +4,7 @@ body{
 }
 .main{
   padding-left: 100px;
+  margin:auto;
 }
 .container{
   display: flex;
